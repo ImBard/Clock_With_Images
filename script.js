@@ -8,6 +8,7 @@ function timeImg() {
 
 
   // This function is to check the time and change the images according with time
+  checkTime("18:00:00")
   function checkTime(time) {
 
     // in the morning
@@ -36,16 +37,16 @@ function timeImg() {
   }
 
   //  This function is to update time every second
-  function count() {
-    setInterval(() => {
-      let time = getTime()
-      clock.innerText = time
-      checkTime(time)
-    }, 1000)
-  }
+  // function count() {
+  //   setInterval(() => {
+  //     let time = getTime()
+  //     clock.innerText = time
+  //     checkTime(time)
+  //   }, 1000)
+  // }
 
-  checkTime(getTime())
-  count()
+  // checkTime(getTime())
+  // count()
 
 }
 
