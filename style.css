@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #555;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 30px;
+  background-image: url("./public/bcSunset.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.time {
+  color: white;
+  font-size: 36px;
+  letter-spacing: 5px;
+  text-align: justify;
+  width: 215px;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 2px solid purple;
+}
