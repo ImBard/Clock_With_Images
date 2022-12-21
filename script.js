@@ -37,16 +37,16 @@ function timeImg() {
   }
 
   //  This function is to update time every second
-  // function count() {
-  //   setInterval(() => {
-  //     let time = getTime()
-  //     clock.innerText = time
-  //     checkTime(time)
-  //   }, 1000)
-  // }
+  function count() {
+    setInterval(() => {
+      let time = getTime()
+      clock.innerText = time
+      checkTime(time)
+    }, 1000)
+  }
 
-  // checkTime(getTime())
-  // count()
+  checkTime(getTime())
+  count()
 
 }
 
